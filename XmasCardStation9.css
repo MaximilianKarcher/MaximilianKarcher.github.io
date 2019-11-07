@@ -1,0 +1,139 @@
+
+DIV.container {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -300px;
+    
+ }
+
+
+div.relative  {
+    color: white;
+    font: times;
+    font-weight: bold;
+    font-size: XX-Large;
+    position: absolute;
+    left: 60px;
+    top: 29px;   
+}
+
+div.Furtwangen {
+    color: white;
+    font: times;
+    font-weight: bold;
+    font-size: XX-Large;
+    position: absolute;
+    left: 60px;
+    top: 65px; 
+}
+
+div.Leser {
+    color: white;
+    font: times;
+    font-size: medium;
+    position: absolute;
+    left: 60px;
+    top: 170px; 
+}
+
+div.Wuensche {
+    color: white;
+    font: times;
+    font-size: medium;
+    position: absolute;
+    left: 60px;
+    top: 210px; 
+}
+
+div.Gruesse {
+    color: white;
+    font: times;
+    font-size: medium;
+    position: absolute;
+    left: 60px;
+    top: 305px; 
+}
+
+.ribbon {
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+    z-index: 1;
+}
+
+.smallsnowflake {
+    position: absolute;
+    left: 214px;
+    top: 5px;
+    z-index: 1;
+}
+
+.smallsnowflake{
+    animation-name: smallsnow;                 
+    animation-duration: 5s;              
+    animation-iteration-count: infinite;  
+}
+
+@keyframes smallsnow {
+    from {  transform: translateY(0px)    }
+    to   {  transform: translateY(360px) }
+}
+
+.smallsnowflake2 {
+    position: absolute;
+    left: 456px;
+    top: 5px;
+    z-index: 1;
+}
+
+.smallsnowflake2 {
+    animation-name: smallsnow2;                 
+    animation-duration: 6s;              
+    animation-iteration-count: infinite;  
+}
+
+@keyframes smallsnow2 {
+    from {  transform: translateY(0px)    }
+    to   {  transform: translateY(360px) }
+}
+
+.bigsnowflake {
+    position: absolute;
+    left: 325px;
+    top: 5px;
+    z-index: 1;
+}
+
+.bigsnowflake {
+    animation-name: bigsnow;                 
+    animation-duration: 4s;              
+    animation-iteration-count: infinite;  
+}
+
+@keyframes bigsnow {
+    from {  transform: translateY(0px)    }
+    to   {  transform: translateY(335px) }
+}
+
+.bigsnowflake2 {
+    position: absolute;
+    left: 79px;
+    top: 5px;
+    z-index: 1;
+}
+
+.bigsnowflake2 {
+    animation-name: bigsnow2;                 
+    animation-duration: 3.5s;              
+    animation-iteration-count: infinite;  
+}
+
+@keyframes bigsnow2 {
+    from {  transform: translateY(0px)    }
+    to   {  transform: translateY(335px) }
+}

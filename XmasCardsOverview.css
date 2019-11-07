@@ -1,0 +1,124 @@
+DIV.container {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 900px;
+    height: 900px;
+    margin-top: -450px;
+    margin-left: -450px;
+    
+ }
+
+
+h1 {
+    color: white;
+    font: times;
+    font-weight: bold;
+    font-size: XX-Large;
+    position: absolute;
+    left: 295px;
+    top: 200px;
+}
+
+.button1 {
+    background-color: rgb(115, 179, 245);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+
+
+  .button2 {
+    background-color: rgb(115, 179, 245);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+  .button3 {
+    background-color: rgb(115, 179, 245);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+  .button4 {
+    background-color: rgb(115, 179, 245);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+
+  .button5 {
+    background-color: rgb(115, 179, 245);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+   
+  }
+  .button1 {
+      position: absolute;
+      top: 400px;
+      left: -50px;
+
+  }
+
+  .button2 {
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+
+.button3 {
+    position: absolute;
+    top: 400px;
+    left: 350px;
+}
+
+.button4 {
+    position: absolute;
+    top: 400px;
+    left: 550px;
+}
+
+.button5 {
+    position: absolute;
+    top: 400px;
+    left: 750px;
+}

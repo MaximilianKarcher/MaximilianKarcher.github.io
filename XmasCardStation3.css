@@ -1,0 +1,162 @@
+
+DIV.container {
+   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -300px;
+    
+ }
+
+
+.stern1 {
+    position: absolute;
+       left: 45px;
+       top: 209px;
+   }
+
+
+
+
+   .stern2 {
+    position: absolute;
+    left: 150px;
+    top: 135px;
+}
+
+
+.stern3 {
+    position: absolute;
+    left: 250px;
+    top: 270px;
+}
+
+
+
+
+.stern4 {
+    position: absolute;
+    left: 419px;
+    top: 205px;
+}
+
+
+
+.Star1 {
+   
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+}
+
+.Star2 {
+   
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+}
+
+.Star3 {
+   
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+}
+
+.Star4 {
+   
+    position: absolute;
+    display: inline-block;
+    margin: 0px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    
+}
+
+
+
+.filledstar1 {
+    display: none;
+    position: absolute;
+    left: 45px;
+    top: 209px;
+}
+
+.Star1:hover .filledstar1 {
+    display: inline;
+}
+
+.filledstar2 {
+    display: none;
+    position: absolute;
+    left: 150px;
+    top: 135px;
+    
+}
+
+.Star2:hover .filledstar2 {
+    display: inline;
+}
+
+.filledstar3 {
+    display: none;
+    position: absolute;
+    left: 250px;
+    top: 270px;
+    
+}
+
+.Star3:hover .filledstar3 {
+    display: inline;
+}
+
+.filledstar4 {
+    display: none;
+    position: absolute;
+    left: 419px;
+    top: 205px;
+    
+}
+
+.Star4:hover .filledstar4 {
+    display: inline;
+}
+
+div.relative  {
+    color: white;
+    font: times;
+    font-weight: bold;
+    font-size: XX-Large;
+    position: absolute;
+    left: 45px;
+    top: 0px;   
+}
+
+div.Furtwangen {
+    color: white;
+    font: times;
+    font-weight: bold;
+    font-size: XX-Large;
+    position: absolute;
+    left: 45px;
+    top: 39px; 
+}
+
+
+
