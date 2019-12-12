@@ -1,0 +1,217 @@
+html, body {
+
+   background-color: rgb(54, 54, 54);
+}
+
+.PlayButt {
+
+    position: absolute;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    right: 700px;
+    top: 100px;
+}
+
+
+.PlayButt2 {
+
+    position: absolute;
+    margin: auto;
+    height: 300px;
+    width: 300px;
+    right: 700px;
+    top: 100px;
+}
+
+
+h1 {
+
+    font-weight: bolder;
+    color: white;
+    position: absolute;
+    right: 100px;
+    top: 200px;
+
+}
+
+h2 {
+
+    font-weight: bolder;
+    color: red;
+    position: absolute;
+    right: 100px;
+    top: 354px;
+
+}
+
+#buttons {
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 600px;
+    height: 464px;
+    margin-top: -232px;
+    margin-left: -300px;
+    
+}
+
+.DrumButtons {
+    
+    border:8px solid #5491fc; -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    background-color: #5491fc; background-image: -webkit-gradient(linear, left top, left bottom, from(#5491fc), to(#79ccfc));
+    background-image: -webkit-linear-gradient(top, #5491fc, #79ccfc);
+    background-image: -moz-linear-gradient(top, #5491fc, #79ccfc);
+    background-image: -ms-linear-gradient(top, #5491fc, #79ccfc);
+    background-image: -o-linear-gradient(top, #5491fc, #79ccfc);
+    background-image: linear-gradient(to bottom, #5491fc, #79ccfc);
+    margin: 7px 7px;
+
+}
+
+.DrumButtons:hover {
+
+    border:8px solid #5491fc;
+    background-color: #79ccfc; background-image: -webkit-gradient(linear, left top, left bottom, from(#79ccfc), to(#5491fc));
+    background-image: -webkit-linear-gradient(top, #79ccfc, #5491fc);
+    background-image: -moz-linear-gradient(top, #79ccfc, #5491fc);
+    background-image: -ms-linear-gradient(top, #79ccfc, #5491fc);
+    background-image: -o-linear-gradient(top, #79ccfc, #5491fc);
+    background-image: linear-gradient(to bottom, #79ccfc, #5491fc);
+}
+
+
+
+
+.NoteButtons {
+    
+    border:8px solid #fcae54; -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    background-color: #fcae54; background-image: -webkit-gradient(linear, left top, left bottom, from(#fcae54), to(#fff599));
+    background-image: -webkit-linear-gradient(top, #fcae54, #fff599);
+    background-image: -moz-linear-gradient(top, #fcae54, #fff599);
+    background-image: -ms-linear-gradient(top, #fcae54, #fff599);
+    background-image: -o-linear-gradient(top, #fcae54, #fff599);
+    background-image: linear-gradient(to bottom, #fcae54, #fff599);
+    margin: 7px 7px;
+}
+
+.NoteButtons:hover {
+
+    border:8px solid #fcae54;
+    background-color: #fff599; background-image: -webkit-gradient(linear, left top, left bottom, from(#fff599), to(#fcae54));
+    background-image: -webkit-linear-gradient(top, #fff599, #fcae54);
+    background-image: -moz-linear-gradient(top, #fff599, #fcae54);
+    background-image: -ms-linear-gradient(top, #fff599, #fcae54);
+    background-image: -o-linear-gradient(top, #fff599, #fcae54);
+    background-image: linear-gradient(to bottom, #fff599, #fcae54);
+}
+
+
+
+
+
+
+.VocalButtons {
+    
+    border:8px solid #ff6ddf; -webkit-border-radius: 15px; -moz-border-radius: 15px;border-radius: 15px;
+    height: 150px;
+    width: 150px;
+    background-color: #ff6ddf; background-image: -webkit-gradient(linear, left top, left bottom, from(#ff6ddf), to(#ca4242));
+    background-image: -webkit-linear-gradient(top, #ff6ddf, #ca4242);
+    background-image: -moz-linear-gradient(top, #ff6ddf, #ca4242);
+    background-image: -ms-linear-gradient(top, #ff6ddf, #ca4242);
+    background-image: -o-linear-gradient(top, #ff6ddf, #ca4242);
+    background-image: linear-gradient(to bottom, #ff6ddf, #ca4242);
+    margin: 7px 7px;
+}
+
+.VocalButtons:hover {
+
+    border:8px solid #ff6ddf;
+    background-color: #ca4242; background-image: -webkit-gradient(linear, left top, left bottom, from(#ca4242), to(#ff6ddf));
+    background-image: -webkit-linear-gradient(top, #ca4242, #ff6ddf);
+    background-image: -moz-linear-gradient(top, #ca4242, #ff6ddf);
+    background-image: -ms-linear-gradient(top, #ca4242, #ff6ddf);
+    background-image: -o-linear-gradient(top, #ca4242, #ff6ddf);
+    background-image: linear-gradient(to bottom, #ca4242, #ff6ddf);
+}
+
+
+#PlayButtonPlay {
+
+    position: absolute;
+    margin: auto;
+    right: 750px;
+    top: 150px;
+    font-size: 1000%;
+    color: white;
+    opacity: 1;
+    display: inline;
+}
+
+#PlayButtonPlay:hover {
+
+   opacity: 0.8;
+   transition: 0.2s;
+   color: lightblue;
+}
+
+
+#PauseButton {
+
+    position: absolute;
+    margin: auto;
+    right: 750px;
+    top: 150px;
+    font-size: 1000%;
+    color: white;
+    opacity: 0;
+    display: none;
+}
+
+#PauseButton:hover {
+
+    opacity: 0.8;
+    transition: 0.2s;
+    color: lightblue;
+ }
+
+#RecordButton {
+
+    position: absolute;
+    margin: auto;
+    right: 755px;
+    top: -50px;
+    font-size: 1000%;
+    color: white;
+   
+}
+
+#RecordButton:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    color: lightblue;
+}
+
+
+#DeleteButton {
+
+    position: absolute;
+    margin: auto;
+    right: 755px;
+    top: 350px;
+    font-size: 1000%;
+    color: white;
+   
+}
+
+#DeleteButton:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+    color: lightblue;
+}
