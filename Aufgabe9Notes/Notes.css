@@ -1,0 +1,93 @@
+
+body {
+
+    background-color: rgb(241, 255, 177);
+    font-style: Arial;
+}
+
+
+.WholeNote {
+    margin-top: 50px;
+    margin-left: 48vw;
+    position: relative;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-style:solid;
+    border-color: rgb(190, 190, 190);
+    border-spacing: 15px;
+    left: -300px;
+    width: 600px;
+    height: 600px;
+    background-color: rgb(225, 225, 225);
+    padding: 15px 15px;
+}
+
+.entry {
+    margin-left: 110px;
+    margin-top: 15px;
+    width: 350px;
+    
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+.addTaskButton {
+
+    position: relative;
+    right: -374px;
+    top: -54px;
+
+}
+  
+.boxed {
+    font: Arial;
+    margin-left: 210px;
+    font-weight: bolder;
+    font-size: xx-large;
+    border-style:solid;
+    border-color:rgb(255, 255, 255);
+    width: 142px;
+    background-color: white;
+    padding: 3px 3px;
+    box-shadow: 3px 3px 5px rgb(179, 179, 179);
+  }
+
+.counter {
+
+    position: relative;
+    right: -180px;
+    top: 10px;
+}
+
+.TaskNumberOne {
+
+    
+    width: 535px;
+
+    position: relative;
+    
+}
+
+.checkbox {
+    
+    position: relative;
+    color: black;
+    background-color: transparent;
+    border: none;   
+}
+
+.trash {
+    
+    position: relative;
+    color: black;
+    background-color: transparent;
+    border: none;   
+}
